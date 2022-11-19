@@ -1,0 +1,267 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 35px;
+  margin-top: 10px;
+  text-align: center;
+  color: yellow;
+}
+
+header{
+    text-align: center;
+}
+
+.logo img{
+  text-align: center;
+  width: 70%;
+
+
+}
+
+.tittle-color{
+    color: rgb(229, 255, 0);
+    background-color: black;
+}
+
+h1 {
+text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+
+a::marker {
+  background-color: rgb(0, 0, 0);
+}
+
+.table tr td {
+margin-left: 40px;
+text-align: left;
+border: 1px solid white;
+}
+
+
+form{
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.galeria img{
+  width: 200px;
+  height: auto;
+}
+.ver-mas a {
+  color: yellow;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: yellow;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 100px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: black;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-3{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+/*responsive mobile*/
+
+@media (max-width:376px){
+  footer{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 15px;
+    
+  }
+}
+@media (max-width:376px){
+  div .red-social{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+}
+@media (max-width:347px){
+  div .red-social{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+@media (max-width:291px){
+  div .red-social{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media (max-width:239px){
+  div .red-social{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+@media (max-width:376px){
+  .pie-pagina .grupo-1 .box h2{
+    font-size: 15px;
+    
+  }
+}
+/*CSS DE CONTACTO*/
+
+.titulo-principal__header {
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.texto-secundario {
+  font-size: 25px;
+  text-align: center;
+  margin-top: -8px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1.animate__animated .animate__backInDown {
+  font-size: 45px;
+  
+}
+
+label {
+  margin-left: 100px;
+  text-align: center;
+}
+
+.numero-telefono {
+  margin-left: 15px;
+}
+
+.dudas-contacto {
+  margin-left: 25px;
+}
+form{
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/925/478/463/retro-jordan-air-jordan-mars-wallpaper-preview.jpg);
+}
+.form label {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  display: block;
+  margin-bottom: .3rem;
+  color: white;
+  margin-top: -8px;
+}
+
+.form input[type="submit"] {
+  border-radius: 3px;
+  background-color: white;
+  padding: 0.1;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  width: 120px;
+  font-size: 20px;
+}
+
+.form input:not([type="submit"]) {
+  background-color: transparent;
+  padding: .5rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 20px;
+  width: 220px;
+
+}
+
+.dudasFormu .DudasForm {
+  transition: 3s;
+}
+
+.dudasFormu .DudasForm:focus {
+  width: 220px;
+  height: 110px;
+  width: 260px;
+}
+
+.nombreContacto {
+  margin-left: 0px;
+}
