@@ -1,80 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta
+      name="keywords"
+      content="Mail, cv, SOBRE NOSOTROS, Contacto, Jordan"
+    />
+    <meta
+      name="description"
+      content="Somos una empresa joven y emprendedora relacionada a las zapatillas y buzos Jordan desde mas de 15 anos. Hoy en día contamos con local propio en La Plata, Capital Federal. Nuestro objetivo es brindar un servicio cálido y diferenciado, con productos de calidad y una atencion personalizada a nuestros clientes."
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trabaja con nosotros</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="icon" type="icon" href="../imagenes/logo jordan.png">
-</head>
+    <!--  <link rel="stylesheet" href="/PROYECTO FINAL/sass/main.scss"> -->
+    <link rel="stylesheet" href="/sass/main.css" />
+    <link rel="icon" type="icon" href="../imagenes/logo jordan.png" />
+    <!--boostrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha38-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!--boostrap js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha38-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/eb496ab1a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/style.css" />
+  </head>
+
+  <body>
     <header>
-    <div class="menu-contacto">
-    <ul class="nav">
-        <li>
-        <a href="../index.html" target="_blank"> Volver a Inicio </a>
-        </li>
-    </ul>
-
-    </header>
-    <body>
-
-      <p> Queres empezar a trabajar con nosotros, contanos sobre vos y dejanos tu curriculum vitae. Saludos!!  </p>
-        <form id="formulario" class="formulario">
-        <hr />
-    <label for="text" class="nombre">Nombre</label>
-     <input id='text' type="text" placeholder='Ingrese su nombre' required>
-  <hr />
-  <label for="number">Numero de telefono</label>
-  <input id="number" type="number" placeholder="Ingresar teléfono" required>
-  <hr />
-    <label for="mail ">Mail</label>
-    <input type="mail" name ="mail" placeholder="Escriba su mail" required />
-
-    <button type="submit">Enviar</button>
-    <button type="reset">Resetear</button>
-    <hr />
-    <label for="nacionalidad" class="formulario">Nacionalidad</label>
-    <select name="Nacionalidad" id="nacionalidad">
-      <option disabled selected>Seleccione un Pais</option>
-      <option>Argentina</option>
-      <option>Uruguaya</option>
-      <option>Chilena</option>
-      <option>Otra</option>
-    </select>
-  </form>
-  <hr />
-    </body>
-  <div class="Redes">
-    <p>Seguinos en nuestras redes</p>
-    <a href="https://www.facebook.com/" target="_blank"><img src="../imagenes/facebook.png" alt="imagen de facebook" width="25px"></a>
-    <a href="https://www.instagram.com/" target="_blank"> <img src="../imagenes/instagram.png" alt="imagen de instagram" width="25px"></a>
-    <a href="https://www.whatsapp.com/" target="_blank4"><img src="../imagenes/whatsapp.png" alt="imagen de wpp" width="25px"></a>
-</div>
-
-<footer class="pie-pagina">
-  <div class="grupo-1">
-     
-      <div class="box">
-          <h2>SOBRE NOSOTROS</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eveniet dolores esse dolorum obcaecati sit incidunt, nihil quae inventore nobis officia quo modi quidem, veritatis iure porro tempora est maxime!</p>
+      <div class="menu-contacto">
+        <ul class="nav">
+          <li>
+            <a href="../index.html"> Volver a Inicio </a>
+          </li>
+        </ul>
       </div>
-      <div class="box">
-          <h2>SIGUENOS</h2>
-          <div class="red-social">
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-instagram"
-                  target="_blank"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-youtube"></a>
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Volver al inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./Productos.html"
+                  >Zapatillas jordan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Trabaja-con-nosotros.html"
+                  >Trabaja con nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Ofertas.html">Buzos en promoción</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Buscar"
+              />
+              <button class="btn btn-outline-success bg-black" type="submit">
+                Buscar
+              </button>
+            </form>
           </div>
+        </div>
+      </nav>
+    </header>
+
+    <p>
+      Queres empezar a trabajar con nosotros, contanos sobre vos y dejanos tu
+      cv. Saludos!!
+    </p>
+    <form id="formulario" class="formulario">
+      <hr />
+      <label for="text" class="nombre">Nombre</label>
+      <input id="text" type="text" placeholder="Ingrese su nombre" required />
+      <hr />
+      <label for="number">Numero de telefono</label>
+      <input
+        id="number"
+        type="number"
+        placeholder="Ingresar teléfono"
+        required
+      />
+      <hr />
+      <label for="mail ">Mail</label>
+      <input type="mail" name="mail" placeholder="Escriba su mail" required />
+      <button type="submit">Enviar</button>
+      <button type="reset">Resetear</button>
+      <hr />
+      <label for="nacionalidad" class="formulario">Nacionalidad</label>
+      <select name="Nacionalidad" id="nacionalidad">
+        <option disabled selected>Seleccione un Pais</option>
+        <option>Argentina</option>
+        <option>Uruguaya</option>
+        <option>Chilena</option>
+        <option>Otra</option>
+      </select>
+      <hr />
+      <label for="Curriculum"> Adjunta tu Cv</label>
+      <input
+        type="file"
+        enctype="multipart/form-data"
+        placeholder="Adjunta tu cv"
+      />
+    </form>
+    <hr />
+  </body>
+
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>
+          SOMOS UNA EMPRESA JOVEN Y EMPRENDEDORA RELACIONADA A LAS ZAPATILLAS Y
+          BUZOS JORDAN DESDE MAS DE 15 AÑOS. HOY EN DIA CONTAMOS CON LOCAL
+          PROPIO EN LA PLATA, CAPITAL FEDERAL. NUESTRO OBJETIVO ES BRINDAR UN
+          SERVICIO CÁLIDO Y DIFERENCIADO, CON PRODUCTOS DE CALIDAD Y UNA
+          ATENCIÓN PERSONALIZADA A NUESTROS CLIENTES.
+        </p>
       </div>
-  </div>
-  <div class="grupo-2">
-      <small>&copy; 2022 <b>Gonzalo Redondo</b> - Todos los Derechos Reservados.</small>
-  </div>
-</footer>
-
-  
+      <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="red-social">
+          <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small
+        >&copy; 2022 <b>Gonzalo Redondo</b> - Todos los Derechos
+        Reservados.</small
+      >
+    </div>
+  </footer>
 </html>
-
