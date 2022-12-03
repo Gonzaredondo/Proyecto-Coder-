@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    img{
+    width: 300px;
+  }
+  }
+  
+  
+  .Col-1{
+    border: black solid 2px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .contenedor-boton button{
+    margin-bottom: 15px;
+    padding: 10px 20px;
+  }
+  
+  .carru{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ver-mas{
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  }
+  
+  .col-md-4{
+    margin-bottom: auto;
+    margin-right: auto;
+  }

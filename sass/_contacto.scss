@@ -1,0 +1,80 @@
+form {
+  text-align: center;
+}
+
+article {
+  h1 {
+    .titulo-principal__header {
+      font-size: 40px;
+      text-align: center;
+      color: black;
+      background-color: yellow;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .texto-secundario {
+      font-size: 25px;
+      text-align: center;
+      margin-top: -8px;
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+  }
+  h1 {
+    .animate__animated {
+      .animate__backInDown {
+        font-size: 45px;
+      }
+    }
+  }
+
+  label {
+    margin-left: 100px;
+    text-align: center;
+  }
+
+  .dudas-contacto {
+    margin-left: 25px;
+  }
+  form {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/925/478/463/retro-jordan-air-jordan-mars-wallpaper-preview.jpg);
+  }
+
+  .form {
+    input[type="submit"] {
+      border-radius: 3px;
+      background-color: white;
+      padding: 0.1;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      width: 120px;
+      font-size: 20px;
+    }
+    input:not([type="submit"]) {
+      background-color: transparent;
+      padding: 0.5rem;
+      border-radius: 5px;
+      border: 1px solid white;
+      margin-bottom: 1rem;
+      color: white;
+      font-size: 20px;
+      width: 220px;
+    }
+  }
+  .dudasFormu {
+    .DudasForm {
+      transition: 3s;
+    }
+    .DudasForm:focus {
+      width: 220px;
+      height: 110px;
+      width: 260px;
+    }
+  }
+  .nombreContacto {
+    margin-left: 0px;
+  }
+}

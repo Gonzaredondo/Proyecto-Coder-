@@ -20,8 +20,6 @@ header{
 .logo img{
   text-align: center;
   width: 70%;
-
-
 }
 
 .tittle-color{
@@ -59,10 +57,12 @@ form{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
 .galeria img{
   width: 200px;
   height: auto;
 }
+
 .ver-mas a {
   color: yellow;
   border: 1px solid black;
@@ -199,9 +199,8 @@ form{
   font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-h1.animate__animated .animate__backInDown {
-  font-size: 45px;
-  
+h1 .animate__animated .animate__backInDown {
+  font-size: 45px; 
 }
 
 label {
@@ -264,4 +263,135 @@ form{
 
 .nombreContacto {
   margin-left: 0px;
+}
+
+/* PRODUCTOS */
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: repeat(2,auto);
+}
+
+.container img{
+  width: 300px;
+}
+
+.Col-1{
+  border: black solid 2px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.container-img{
+  height: 300px;
+}
+
+
+.contenedor-boton button{
+  margin-bottom: 15px;
+  padding: 10px 20px;
+}
+
+.carru{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ver-mas{
+margin-bottom: auto;
+margin-right: auto;
+margin-top: 50px;
+}
+
+.col-md-4{
+  margin-bottom: auto;
+  margin-right: auto;
+}
+/* INDEX */
+.container-2{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: repeat(2,auto);
+}
+
+.container-2 img{
+  width: 300px;
+}
+
+.container-2 .Col-1{
+  border: black solid 2px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.container-2 .container-img{
+  height: 300px;
+}
+
+.container-2 .contenedor-boton button{
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  border: solid black 2px;
+  border-radius: 20px;
+}
+
+/* OFERTAS BUZOS */
+.container-3{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: repeat(2,auto);
+}
+
+.container-3 img{
+  width: 300px;
+}
+
+.container-3 .Col-1{
+  border: black solid 2px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: white;
+}
+
+.container-3 .container-img{
+  height: 300px;
+}
+
+.container-3 .contenedor-boton button{
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  border: solid black 2px;
+  border-radius: 20px;
+}
+
+.container-img .unica-1{
+  width: 243px;
+}
+
+.container-3 .contenedor-boton button:hover{
+background-color: black;
+color: white;
+}
+
+.container-2 .contenedor-boton button:hover{
+  background-color: red;
+  color: white;
+}
+
+@media (max-width :576px){
+  .responsive-1 {
+    display: flex;
+    flex-direction: column;
+  }
 }

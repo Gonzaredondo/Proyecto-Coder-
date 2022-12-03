@@ -1,0 +1,381 @@
+.Col-1, .Col-1--width, .Col-1--right, .Col-1--center {
+  border: black solid 2px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: white;
+}
+
+.Col-1--center {
+  text-align: center;
+}
+
+.Col-1--right {
+  text-align: right;
+}
+
+.Col-1--width {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 35px;
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(229, 255, 0);
+}
+
+header {
+  text-align: center;
+}
+header .logo img {
+  text-align: center;
+  width: 70%;
+}
+header .tittle-color {
+  color: rgb(229, 255, 0);
+  background-color: black;
+}
+header .tittle-color h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+a::marker {
+  color: black;
+}
+
+.ver-mas a {
+  color: yellow;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.pie-pagina {
+  width: 100%;
+  background-color: yellow;
+}
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box h2 {
+  color: black;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p {
+  color: black;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .box .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: black;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .box .red-social a:hover {
+  color: aqua;
+}
+.pie-pagina .grupo-2 {
+  background-color: black;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina small {
+  font-size: 15px;
+}
+.pie-pagina .numero-telefono {
+  margin-left: 15px;
+}
+
+.unica {
+  width: 350px;
+}
+
+.unica-2 {
+  width: 350px;
+}
+
+form {
+  text-align: center;
+}
+
+article h1 .titulo-principal__header {
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+article h1 .texto-secundario {
+  font-size: 25px;
+  text-align: center;
+  margin-top: -8px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+article h1 .animate__animated .animate__backInDown {
+  font-size: 45px;
+}
+article label {
+  margin-left: 100px;
+  text-align: center;
+}
+article .dudas-contacto {
+  margin-left: 25px;
+}
+article form {
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/925/478/463/retro-jordan-air-jordan-mars-wallpaper-preview.jpg);
+}
+article .form input[type=submit] {
+  border-radius: 3px;
+  background-color: white;
+  padding: 0.1;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  width: 120px;
+  font-size: 20px;
+}
+article .form input:not([type=submit]) {
+  background-color: transparent;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 20px;
+  width: 220px;
+}
+article .dudasFormu .DudasForm {
+  transition: 3s;
+}
+article .dudasFormu .DudasForm:focus {
+  width: 220px;
+  height: 110px;
+  width: 260px;
+}
+article .nombreContacto {
+  margin-left: 0px;
+}
+
+.container-3 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+}
+.container-3 img {
+  width: 300px;
+}
+.container-3 .Col-1, .container-3 .Col-1--center, .container-3 .Col-1--right, .container-3 .Col-1--width {
+  border: black solid 2px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: white;
+}
+.container-3 .contenedor-boton button {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  border: solid black 2px;
+  border-radius: 20px;
+}
+.container-3 .contenedor-boton button:hover {
+  background-color: black;
+  color: white;
+}
+.container-3 .contenedor-boton button:hover .container-img {
+  height: 300px;
+}
+
+.container-img .unica-1 {
+  width: 243px;
+}
+
+.container-2 .contenedor-boton button:hover {
+  background-color: red;
+  color: white;
+}
+
+form {
+  text-align: center;
+}
+
+article h1 .titulo-principal__header {
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+article h1 .texto-secundario {
+  font-size: 25px;
+  text-align: center;
+  margin-top: -8px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+article h1 .animate__animated .animate__backInDown {
+  font-size: 45px;
+}
+article label {
+  margin-left: 100px;
+  text-align: center;
+}
+article .dudas-contacto {
+  margin-left: 25px;
+}
+article form {
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/925/478/463/retro-jordan-air-jordan-mars-wallpaper-preview.jpg);
+}
+article .form input[type=submit] {
+  border-radius: 3px;
+  background-color: white;
+  padding: 0.1;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  width: 120px;
+  font-size: 20px;
+}
+article .form input:not([type=submit]) {
+  background-color: transparent;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 20px;
+  width: 220px;
+}
+article .dudasFormu .DudasForm {
+  transition: 3s;
+}
+article .dudasFormu .DudasForm:focus {
+  width: 220px;
+  height: 110px;
+  width: 260px;
+}
+article .nombreContacto {
+  margin-left: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+}
+.container img {
+  width: 300px;
+}
+
+.Col-1, .Col-1--center, .Col-1--right, .Col-1--width {
+  border: black solid 2px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.contenedor-boton button {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+}
+
+.carru {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ver-mas {
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.col-md-4 {
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 376px) {
+  footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+}
+@media (max-width: 376px) {
+  div .red-social {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  div .red-social .pie-pagina .grupo-1 .box h2 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 347px) {
+  div .red-social {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 291px) {
+  div .red-social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 239px) {
+  div .red-social {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 1400px) and (min-width: 375) {
+  .container-3 {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+}/*# sourceMappingURL=main.css.map */
