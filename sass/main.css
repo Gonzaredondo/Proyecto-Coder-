@@ -234,6 +234,13 @@ article .nombreContacto {
 
 form {
   text-align: center;
+  background-color: black;
+  color: yellow;
+}
+
+p .h1 {
+  margin-top: 10px;
+  text-align: center;
 }
 
 article h1 .titulo-principal__header {
@@ -296,6 +303,11 @@ article .dudasFormu .DudasForm:focus {
 }
 article .nombreContacto {
   margin-left: 0px;
+}
+
+.titulo-zapas {
+  margin-top: 10px;
+  text-align: center;
 }
 
 .container {
